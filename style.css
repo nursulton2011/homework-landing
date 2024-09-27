@@ -1,0 +1,134 @@
+.people {
+    font-family: 'TT Hoves';
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+   } 
+.peoples {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top:  90px; 
+     font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+ } 
+ /*.about {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     
+     font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+     margin-top: calc(10px + (20 - 10) * ((110vw - 375px) / (1280 - 375)));
+     max-width: 100px;
+     line-height: 150%;
+     font-weight: 400;
+     
+     } */
+     
+ .blok1 {
+     width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375))); 
+     height: calc(350px +(506 - 350)*((100vw - 375px) /(1280 - 375)));
+     font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+     line-height: 140%;
+     margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375))); ;
+     
+ }
+ .blok2 {
+    width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(350px +(468 - 350)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-left: 70px;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375))); ;
+    
+}
+.blok3 {
+    width: calc(328px +(432 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(325px +(468 - 325)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375))); ;
+    
+}
+.blok4 {
+    width: calc(328px +(477 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(328px +(506 - 375)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-left: 88px;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375))); ;
+    
+}
+.blok1 p{
+    width: 480px;
+    height: 228px;
+}
+.blok2 p{
+    width: 450px;
+    height: 190px;
+}
+.blok3 p{
+    width: 477px;
+    height: 190px;
+}
+.blok4 p{
+    width: 480px;
+    height: 228px;
+}
+.blok1 h2{
+    width: 420px;
+    height: 38px;
+}
+.blok2 h2{
+    width: 369px;
+    height: 38px;
+}
+.blok3 h2{
+    width: 318px;
+    height: 76px;
+}
+.blok4 h2{
+    width: 300px;
+    height: 35px;
+}
+     
+ 
+ .people img {
+    margin: 52px;
+    max-width: 100%;
+ }
+     
+ h2 {
+ 
+   margin-top: 100px;
+   font-size: calc(34px + (58 - 34) * ((110vw - 375px) / (1280 - 375)));
+   line-height: 110%;
+   font-weight: 500;
+
+   
+  }
+.description{
+    margin-left: calc(22px + (120 - 22) * ((110vw - 375px) / (1280 - 375)));
+}
+.description h2{
+    width: calc(328px + (769 - 328) * ((110vw - 375px) / (1280 - 375)));
+    height: calc(80px + (136 - 80) * ((110vw - 375px) / (1280 - 375)));
+    font-family: 'TT Hoves';
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+@media (max-width: 600px){
+    .blok2{
+        margin-left: 24px;
+    }
+    .blok4{
+        margin-left: 24px;
+    }
+    .description h2{
+        font-family: 'TT Hoves';
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 40.05px;   
+    }
+}
